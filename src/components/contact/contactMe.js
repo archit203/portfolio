@@ -9,10 +9,9 @@ import InstagramIcon from "../../assets/instagram.png"
 const ContactMe = () => {
   return (
     <section id='contact'>
-        <div className='contact'>
-          <h1 className='contactPageTitle'>Contact Me</h1>
-          <span className='contactDesc'>Please fill out the form below to discuss any work opportunities.</span>
-          <form action='' className='contactForm'>
+        <h1 className='contactPageTitle'>Contact Me</h1>
+        <span className='contactDesc'>Please fill out the form below to discuss any work opportunities.</span>
+        <form action='' className='contactForm'>
             <input type='text' className='name' placeholder='Your Name'/>
             <input type='email' className='email' placeholder='Your Email'/>
             <textarea name='message' rows={5} placeholder='Your Message' className='msg'></textarea>
@@ -23,8 +22,7 @@ const ContactMe = () => {
               <img src={twitterIcon} alt='twitterIcon' className='link'/>
               <img src={InstagramIcon} alt='InstagramIcon' className='link'/>
             </div>
-          </form>
-        </div>
+        </form>
     </section>
   )
 }
