@@ -1,0 +1,44 @@
+#resume{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.resumeTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.resumeDesc{
+    font-weight: 300;
+    font-size: 1.05rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.resumeDoc {
+    margin: 2.5rem;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.resumeFrame{
+    object-fit: cover;
+    width: 85%;
+    height: 600px;
+}
+
+@media screen and (max-width:900px) {
+    .resumeFrame{
+        height: 300px;
+    }
+    
+}
