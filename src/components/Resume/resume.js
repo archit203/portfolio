@@ -1,6 +1,6 @@
 import React from 'react'
 import './resume.css'
-import Myresume from "../../../src/Archit's resume.pdf"
+import Myresume from "../../assets/Archit's Resume.pdf"
 const Resume = () => {
   return (
     <section id='resume'>
